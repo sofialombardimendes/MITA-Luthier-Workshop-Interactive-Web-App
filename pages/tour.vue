@@ -1,3 +1,4 @@
+<NuxtLink to="/" class="home-btn">← Back to Home</NuxtLink>
 <template>
   <div class="app-container">
     <!-- Hero -->
@@ -427,4 +428,18 @@ body { font-family: 'Inter', sans-serif; background: #f5f0eb; color: #2c1810; }
   .tour-image { height: 200px; }
   .nav-buttons { flex-direction: column; align-items: center; }
 }
+</style>
+<style>
+.home-btn {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px 24px;
+  background: #2c1810;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+.home-btn:hover { background: #8B4513; }
 </style>
