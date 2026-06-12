@@ -8,13 +8,7 @@
       </div>
     </header>
 
-    <!-- Loop Indicator -->
-    <div class="loop-wrapper">
-      <LoopIndicator :current-state="currentState" />
-    </div>
-
-    <p v-if="stateLabel" class="state-label">{{ stateLabel }}</p>
-    <p v-if="errorMessage" class="error-msg">{{ errorMessage }}</p>
+   <p v-if="errorMessage" class="error-msg">{{ errorMessage }}</p>
 
     <!-- IDLE state -->
     <div v-if="currentState === 'IDLE'">
